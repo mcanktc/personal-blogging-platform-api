@@ -22,9 +22,9 @@ It supports full CRUD operations and author-based access control.
 |--------|----------|-------------|
 | GET    | `/posts/` | List all posts |
 | POST   | `/posts/create` | Create a new post *(requires login)* |
-| GET    | `/post/<id>/` | Get a single post by ID |
-| PUT    | `/post/<id>/update` | Update a post *(author only)* |
-| DELETE | `/post/<id>/delete` | Delete a post *(author only)* |
+| GET    | `/posts/<id>/` | Get a single post by ID |
+| PUT    | `/posts/<id>/update` | Update a post *(author only)* |
+| DELETE | `/posts/<id>/delete` | Delete a post *(author only)* |
 
 > The `author` field is automatically set from the logged-in user. It is **read-only** in API requests.
 
